@@ -1,0 +1,12 @@
+header {
+    background-color: #6b35b3;
+    padding: 20px;
+    width: 100%;    
+}
+
+.fonte-titulo {
+	font-family: 'Roboto Slab', serif; /*copiado da fonte escolhida no Google fonts*/
+	font-weight: bolder;
+	padding: 10px;	
+	text-align: center;
+}
