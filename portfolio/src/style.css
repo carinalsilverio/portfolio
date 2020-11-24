@@ -24,8 +24,6 @@
     animation: fadeIn 3s ease-in-out;
 }
 
-
-
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -62,7 +60,7 @@ header {
     top: 0;
 }
 
-header {
+header, footer {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -94,7 +92,6 @@ header {
     display: block;
     padding: 10px;
 }
-
 
 .container {
     width: 800px;
@@ -222,6 +219,7 @@ header {
     
 }
 
+
 .icones {
     width: 30px;
     height: 30px;   
@@ -274,38 +272,8 @@ header {
     border-radius: 0%;
 }
 
-footer{
-   /* display: flex;*
-    flex-wrap: wrap;
-    /*justify-content: space-between;*/
-    align-items: center;
-    padding: 18px; 
-    background-color: #242236;  
-    height: 80px;   
-    width: 100%;
-}
-
 footer p {
     color: #FFFFFF;
     font-size: 12px;
-    justify-content: center;   
-}
-
-/*@media screen and (max-width: 768px) {
-    .nav {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    nav ul {
-        flex-direction: row;
-        width: 70%;  
-    }
-    /*Cabeçalho*/
-   /* header, .footer {
-        height: 10px;
-        height: 10vh;
-        justify-content: center;        
-    }
-
-    
+    margin-left: 565px;   
 }
