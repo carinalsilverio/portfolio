@@ -149,20 +149,20 @@ header {
     padding: 7px 0px 0px 7px;  
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #000;
     border-radius: 5px;
     font-size: 14px;                  
 }
 
-a:hover {
+.header a:hover {
     background-color: #01F9C6;
     text-decoration: none;
     color: #000000;
 }
 
-a:active {
+.header a:active {
     text-decoration: none;
     color: #000000;
     position: relative;
@@ -222,16 +222,19 @@ a:active {
     max-width: 300px;
     height: 300px;
     border: none;
-    margin-top: -300px;    
+    margin-top: -250px;    
     margin-left: 15px;             
+}
+
+.novacor {
+    background-color: #01F9C6;
+ 
 }
 
 .linguagens {
    
     margin-left: 370px; 
-    font-size: 15px;    
-    margin-block-start: 10px;  
-    margin-block-end: 5px;
+    font-size: 15px;      
 }
 
 .progress {
@@ -295,14 +298,13 @@ a:active {
     max-width: 750px;
     margin: 0 auto;
     height: 320px;
-    border: none;
-    margin-top: 4 0px; 
+    border: none;    
     border-radius: 20px;   
     background-color: #6c63ff;
     color: #FFFFFF;    
     display: block;
     text-align: center;
-    margin-block-end: 40px;     
+    margin-bottom: 40px;     
     position: relative;     
 }
 
@@ -365,17 +367,41 @@ a:active {
 footer{
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     align-items: center;
-    padding: 18px; 
     background-color: #242236;  
     height: 80px;   
     width: 100%;
+    position: relative;
 }
 
 footer p {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 12px;
-    justify-content: center;   
+    margin-left: 710px;
+        
 }
 
+/*Estilo para Tablets*/
+
+    @media only screen and (min-width: 788px) and (max-width:979px) {
+      
+    }
+
+
+/*Estilo para Smartphone*/
+    @media only screen and (max-device-width: 767px) {
+        
+        .header {
+            position: relative;
+            
+        }
+        
+        .header_menu {
+            position: relative;
+            text-align: center;  
+            display: block;
+                                 
+        }
+
+
+    }

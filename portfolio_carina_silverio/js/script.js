@@ -16,7 +16,7 @@ function getScroolTopByHref(element) {
 
 function scrollToIdOnClick(event) {
   event.preventDefault(); 
-  const to = getScroolTopByHref(event.target) - 151; //valor para que o menu não fique cobrindo o título chamado no click
+  const to = getScroolTopByHref(event.target) - 122; //valor para que o menu não fique cobrindo o título chamado no click
     
   scroolToPositon(to);
 }
@@ -65,11 +65,3 @@ function backtoTop() {
   document.documentElement.scrollTop = 0;
 }
 
-//Menu Responsivo (hamburguer)
-
-$(document).ready(function(){
-  $('.hamburguer').click(function() {
-    $(this).toggleClass('active');
-    $('.menu').toggleClass('active');
-  });
-});
